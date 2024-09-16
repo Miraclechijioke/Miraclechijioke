@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# class MChijioke:
+class MChijioke:
     def __init__(self):
         # Personal Information
         self.name = "Miracle Chijioke"
@@ -9,68 +9,47 @@
         self.github = "@Miraclechijioke"
         self.twitter = "@_macins"
         self.website = "https://tinyurl.com/mchijiokeport"
-        
-        # Hard Skills
+        # Hardskills
         self.languages = ["Python", "HTML", "CSS"]
         self.frameworks = ["SKlearn", "Pandas", "Numpy", "MLFlow", "AWS Sagemaker"]
-        self.tools = [
-              "Git", "Azure", "AWS",
-        ]
-
-        # Soft Skills
-        self.soft_skills = [
-              "Communication", "Teamwork",
-              "Sociable", "Leadership",
-              "Analytical and Problem-solving",
-        ]
+        self.tools = ["Git", "Azure", "AWS"]
         self.other_skills = ["MLOps", "Data Preparation", "Wordpress Web Designer"]
-
+        # Soft Skills
+        self.soft_skills = ["Communication", "Teamwork", "Sociable", "Leadership", "Analytical and Problem-solving"]
         # Spoken Languages
-        self.languages_proficiency = {
-                "English": "Fluent",
-                "Deutsch": "Conversational"
-        }
-        
+        self.languages_proficiency = {"English": "Fluent", "Deutsch": "Conversational"}
         # Education
         self.education = {
-            "degree": "BEng Mechanical Engineering",
-            "degree": "Applied Data Science Lab",
-            "institution1": "Federal University of technology Owerri",
-            "institution2": "World Quant University"
+            "degree1": "BEng Mechanical Engineering",
+            "degree2": "Applied Data Science Lab",
+            "institution1": "Federal University of Technology Owerri",
+            "institution2": "World Quant University",
             "location": "Nigeria",
-            "graduation_date": "2014, 2024"
+            "graduation_dates": "2014, 2024"
         }
-
         # Projects
-        self.projects = [
-            "Recommender systems",
-            "Survey of Consumer Finances",
-        ]
-
+        self.projects = ["Recommender systems", "Survey of Consumer Finances"]
     def display_info(self):
-        info = {
-            "Name": self.name,
-            "Email": self.email,
-            "LinkedIn": self.linkedin,
-            "GitHub": self.github,
-            "Twitter": self.twitter,
-            "Website": self.website,
-            "Hard Skills": {
-                "Languages": self.languages,
-                "Frameworks": self.frameworks,
-                "Tools": self.tools,
-                "Others": self.other_skills,
-                "Language Proficiency": self.languages_proficiency
-            },
-            "Soft Skills": self.soft_skills,
-            "Education": self.education,
-            "Certifications": self.certifications,
-            "Work Experience": self.work_experience,
-            "Projects": self.projects,
-            "Blogs": self.blogs
+        # Create an empty dictionary
+        info = {}
+        # Fill the dictionary with relevant data
+        info["Name"] = self.name
+        info["Email"] = self.email
+        info["LinkedIn"] = self.linkedin
+        info["GitHub"] = self.github
+        info["Twitter"] = self.twitter
+        info["Website"] = self.website
+        info["Hard Skills"] = {
+            "Languages": self.languages,
+            "Frameworks": self.frameworks,
+            "Tools": self.tools,
+            "Other Skills": self.other_skills
         }
+        info["Soft Skills"] = self.soft_skills
+        info["Languages Proficiency"] = self.languages_proficiency
+        info["Education"] = self.education
+        info["Projects"] = self.projects
         return info
-        
 <!--
 **Miraclechijioke/Miraclechijioke** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
