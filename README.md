@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-class MChijioke:
+# class MChijioke:
     def __init__(self):
         # Personal Information
         self.name = "Miracle Chijioke"
