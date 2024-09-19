@@ -4,14 +4,14 @@ class MChijioke:
     def __init__(self):
         # Personal Information
         self.name = "Miracle Chijioke"
-        self.email = "mchijioke@gmail.com"
+        self.email = "mchijioke02@gmail.com"
         self.linkedin = "linkedin.com/in/m-chijioke"
         self.github = "@Miraclechijioke"
         self.twitter = "@_macins"
         self.website = "https://tinyurl.com/mchijiokeport"
         # Hardskills
         self.languages = ["Python", "HTML", "CSS"]
-        self.frameworks = ["SKlearn", "Pandas", "Numpy", "MLFlow", "AWS Sagemaker"]
+        self.frameworks = ["SKlearn", "Pandas", "Numpy", "MLFlow", "AWS Sagemaker", "Azure ML"]
         self.tools = ["Git", "Azure", "AWS"]
         self.other_skills = ["MLOps", "Data Preparation", "Wordpress Web Designer"]
         # Soft Skills
@@ -56,7 +56,7 @@ class MChijioke:
 Here are some ideas to get you started:
 
 - 🔭 I’m currently working on Azure Machine Learning Tasks
-- 🌱 I’m currently learning managing and maintaining model lifecycle on Azure
+- 🌱 I’m currently learning how managing and maintaining model lifecycle on Azure is done
 - 👯 I’m looking to collaborate on machine learning and deep learning tasks
 - 🤔 I’m looking for help with deep learning tasks
 - 💬 Ask me about data science and machine learning
